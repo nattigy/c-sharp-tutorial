@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05e1527b-5f3a-42f3-a7c1-455102fa2aa9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitChange/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <marker date="1571677429520" expanded="true" signature="0:1990" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;        &lt;StackPanel&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Margin=&quot;0,10,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Grid.Column=&quot;4&quot;&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Margin=&quot;20,60,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt;&#10;            &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="483:1980" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Margin=&quot;0,10,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;4&quot;&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Margin=&quot;20,60,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt;&#10;            &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="554:872" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="882:1144" ph="&lt;&lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="907:1122" ph="&lt;&lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="1162:1288" ph="&lt;&lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="1306:1582" ph="&lt;&lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="1347:1560" ph="&lt;&lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="1600:1968" ph="&lt;&lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt; &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;.../&gt;" />
+                <marker date="1571677429520" expanded="true" signature="1660:1832" ph="&lt;&lt;TextBox Name=&quot;value&quot;/&gt; &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UnitChange/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitChange/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UnitChange/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/UnitChange/MainWindow.xaml.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="UnitChange" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="UnitChange" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UnitChange" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/UnitChange/bin/Debug/UnitChange.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitChange/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/UnitChange/UnitChange.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05e1527b-5f3a-42f3-a7c1-455102fa2aa9" name="Default Changelist" comment="" />
+      <created>1571677236871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571677236871</updated>
+      <workItem from="1571677238356" duration="284000" />
+      <workItem from="1571678001221" duration="663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="947000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532124" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="XAML Preview" order="11" weight="0.42204726" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32913387" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UnitChange/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <marker date="1571677504381" expanded="true" signature="6:35" ph="..." />
+            <marker date="1571677504381" expanded="true" signature="64:142" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1571677504381" expanded="true" signature="178:2417" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="212:267" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="338:1768" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="364:1652" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="463:557" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="618:702" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="761:858" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="917:1014" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1073:1170" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1229:1325" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1384:1481" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1540:1636" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1685:1758" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1825:1883" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="1931:1986" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="2034:2093" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="2141:2200" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="2247:2308" ph="{...}" />
+            <marker date="1571677504381" expanded="true" signature="2355:2411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitChange/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <marker date="1571677429520" expanded="true" signature="0:1990" ph="&lt;&lt;Grid VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot;&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;        &lt;StackPanel&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Margin=&quot;0,10,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Grid.Column=&quot;4&quot;&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt;&#10;        &#10;        &lt;StackPanel Margin=&quot;20,60,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt;&#10;            &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="483:1980" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Margin=&quot;0,10,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Grid.Column=&quot;4&quot;&gt;&#10;            &lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;&#10;        &lt;/StackPanel&gt; &lt;StackPanel Margin=&quot;20,60,0,0&quot; Grid.Column=&quot;2&quot;&gt;&#10;            &lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt;&#10;            &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="554:872" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="882:1144" ph="&lt;&lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;from&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="907:1122" ph="&lt;&lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="1162:1288" ph="&lt;&lt;TextBlock TextAlignment=&quot;Center&quot; Text=&quot;To&quot;/&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="1306:1582" ph="&lt;&lt;ComboBox SelectedIndex=&quot;0&quot; Name=&quot;to&quot;&gt;&#10;                &lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt;&#10;                &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;&#10;            &lt;/ComboBox&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="1347:1560" ph="&lt;&lt;ComboBoxItem&gt;meter&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;inch&lt;/ComboBoxItem&gt; &lt;ComboBoxItem&gt;mile&lt;/ComboBoxItem&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="1600:1968" ph="&lt;&lt;StackPanel&gt;&#10;                &lt;TextBox Name=&quot;value&quot;/&gt;&#10;                &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt; &#10;            &lt;/StackPanel&gt; &lt;Button Name=&quot;submmitBtn&quot; Click=&quot;SubmitBtn_Click&quot;  Content=&quot;Convert&quot; Margin=&quot;0,20,0,0&quot; Padding=&quot;15&quot;/&gt;.../&gt;" />
+            <marker date="1571677429520" expanded="true" signature="1660:1832" ph="&lt;&lt;TextBox Name=&quot;value&quot;/&gt; &lt;TextBlock Margin=&quot;0,10,0,0&quot; TextAlignment=&quot;Center&quot; Text=&quot;0&quot; Name=&quot;result&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

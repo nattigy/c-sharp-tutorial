@@ -1,0 +1,17 @@
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.exe
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.deps.json
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.runtimeconfig.json
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.runtimeconfig.dev.json
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.dll
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\bin\Debug\netcoreapp3.0\ZodiacSigns.pdb
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.csprojAssemblyReference.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns_MarkupCompile.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns_MarkupCompile.lref
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.g.resources
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.AssemblyInfoInputs.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.AssemblyInfo.cs
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.dll
+C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns\ZodiacSigns\obj\Debug\netcoreapp3.0\ZodiacSigns.pdb

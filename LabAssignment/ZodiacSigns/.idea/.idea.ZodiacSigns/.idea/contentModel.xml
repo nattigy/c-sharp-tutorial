@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Nati\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nati\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ZodiacSigns.1283453037.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Nati\Desktop\C# projects\LabAssignment\ZodiacSigns" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ZodiacSigns" t="IncludeRecursive">
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="img" t="Include">
+          <e p="aquarius.jpg" t="Include" />
+          <e p="aries.jpg" t="Include" />
+          <e p="cancer.jpg" t="Include" />
+          <e p="capricorn.jpg" t="Include" />
+          <e p="gemini.jpg" t="Include" />
+          <e p="leo.jpg" t="Include" />
+          <e p="libra.jpg" t="Include" />
+          <e p="pisces.jpg" t="Include" />
+          <e p="sagittarius.jpg" t="Include" />
+          <e p="Scorpio.jpg" t="Include" />
+          <e p="taurus.jpg" t="Include" />
+          <e p="Virgo.jpg" t="Include" />
+        </e>
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Signs.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="ZodiacSigns.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="textFiles" t="Include">
+          <e p="details" t="Include">
+            <e p="Aquarius.txt" t="Include" />
+            <e p="Aries.txt" t="Include" />
+            <e p="Cancer.txt" t="Include" />
+            <e p="Capricorn.txt" t="Include" />
+            <e p="Gemini.txt" t="Include" />
+            <e p="Leo.txt" t="Include" />
+            <e p="Libra.txt" t="Include" />
+            <e p="Pisces.txt" t="Include" />
+            <e p="Sagittarius.txt" t="Include" />
+            <e p="Scorpio.txt" t="Include" />
+            <e p="Tourus.txt" t="Include" />
+            <e p="Virgo.txt" t="Include" />
+          </e>
+          <e p="info" t="Include">
+            <e p="Aquarius.txt" t="Include" />
+            <e p="Aries.txt" t="Include" />
+            <e p="Cancer.txt" t="Include" />
+            <e p="Capricorn.txt" t="Include" />
+            <e p="Gemini.txt" t="Include" />
+            <e p="Leo.txt" t="Include" />
+            <e p="Libra.txt" t="Include" />
+            <e p="Pisces.txt" t="Include" />
+            <e p="Sagittarius.txt" t="Include" />
+            <e p="Scorpio.txt" t="Include" />
+            <e p="Tourus.txt" t="Include" />
+            <e p="Virgo.txt" t="Include" />
+          </e>
+        </e>
+        <e p="ZodiacSigns.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ZodiacSigns.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

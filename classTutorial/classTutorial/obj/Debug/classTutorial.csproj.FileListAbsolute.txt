@@ -1,0 +1,5 @@
+C:\Users\Nati\Desktop\C# projects\classTutorial\classTutorial\bin\Debug\classTutorial.exe
+C:\Users\Nati\Desktop\C# projects\classTutorial\classTutorial\bin\Debug\classTutorial.pdb
+C:\Users\Nati\Desktop\C# projects\classTutorial\classTutorial\obj\Debug\classTutorial.csprojAssemblyReference.cache
+C:\Users\Nati\Desktop\C# projects\classTutorial\classTutorial\obj\Debug\classTutorial.exe
+C:\Users\Nati\Desktop\C# projects\classTutorial\classTutorial\obj\Debug\classTutorial.pdb

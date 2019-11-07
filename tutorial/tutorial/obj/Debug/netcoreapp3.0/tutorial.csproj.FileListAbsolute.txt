@@ -1,0 +1,11 @@
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.exe
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.deps.json
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.runtimeconfig.json
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.runtimeconfig.dev.json
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.dll
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\bin\Debug\netcoreapp3.0\tutorial.pdb
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\obj\Debug\netcoreapp3.0\tutorial.csprojAssemblyReference.cache
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\obj\Debug\netcoreapp3.0\tutorial.AssemblyInfoInputs.cache
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\obj\Debug\netcoreapp3.0\tutorial.AssemblyInfo.cs
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\obj\Debug\netcoreapp3.0\tutorial.dll
+C:\Users\Nati\Desktop\C# projects\tutorial\tutorial\obj\Debug\netcoreapp3.0\tutorial.pdb

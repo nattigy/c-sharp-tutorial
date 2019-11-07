@@ -1,0 +1,71 @@
+﻿<Window x:Class="ZodiacSigns.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZodiacSigns"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Margin="30,45,30,0">
+            <TextBlock>Birth Date</TextBlock>
+            <DatePicker Name="birthdate" Margin="0,0,0,20"/>
+            <Button Height="30" Click="Submit">Submit</Button>
+        </StackPanel>
+        <TabControl Name="TabControl" Grid.Column="1" Margin="0,25,231,10">
+            <TabItem Name="Tab1" Header="Info">
+                
+                
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="89*"/>
+                        <ColumnDefinition Width="733*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Button Content="Get Details" Click="GetDetails" HorizontalAlignment="Left" Margin="152,321,0,0" VerticalAlignment="Top" Height="44" Width="132" Grid.Column="1"/>
+                    
+                    <Label Name="Info" Content="Please select your birthdate" HorizontalAlignment="Left" Margin="3,37,0,0" VerticalAlignment="Top" Height="256" Width="452" Grid.Column="1"/>
+                </Grid>
+                
+                
+            </TabItem>
+            <TabItem Name="Tab2" Header="Details">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="19*"/>
+                        <ColumnDefinition Width="803*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    
+                    <StackPanel Margin="0,15,425,0" Grid.ColumnSpan="2">
+                        <Button Content="Aries" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Tourus" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Gemini" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Cancer" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Leo" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Virgo" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Libra" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Scorpio" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Sagittarius" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Capricorn" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Aquarius" Click="DisplayDetail" Height="40"/>
+                        <Button Content="Pisces" Click="DisplayDetail" Height="40"/>
+                    </StackPanel>
+                    <ScrollViewer Grid.Column="1"  Margin="167,27,0,0">
+                        <TextBlock Name="Details" TextWrapping="Wrap"/>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        
+        <StackPanel Margin="-87,120,246,464"/>
+        <Image Name="SignImg" Grid.Column="1" HorizontalAlignment="Left" Height="159" Margin="626,120,0,0" VerticalAlignment="Top" Width="187"/>
+        <Label Name="SignName" Grid.Column="1" HorizontalAlignment="Left" Margin="646,302,0,0" VerticalAlignment="Top" Width="161"/>
+
+    </Grid>
+</Window>

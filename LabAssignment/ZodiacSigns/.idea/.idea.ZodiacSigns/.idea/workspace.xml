@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50e4d612-5549-490e-b0bc-b188dbf6d045" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+              <folding>
+                <marker date="1573115496174" expanded="true" signature="0:3837" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;        &lt;StackPanel Margin=&quot;30,50,30,0&quot;&gt;&#10;            &lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt;&#10;            &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt;&#10;            &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;&#10;        &lt;/StackPanel&gt;&#10;        &lt;TabControl Grid.Column=&quot;1&quot; Margin=&quot;0,25,231,10&quot;&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;RichTextBox Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;&gt;&#10;                        &lt;FlowDocument&gt;&#10;                            &lt;Paragraph&gt;&#10;                                &lt;Run Text=&quot;RichTextBox&quot;/&gt;&#10;                            &lt;/Paragraph&gt;&#10;                        &lt;/FlowDocument&gt;&#10;                    &lt;/RichTextBox&gt;&#10;                    &lt;Image Name=&quot;singImg&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;209&quot; Margin=&quot;592,39,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;223&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;        &lt;/TabControl&gt;&#10;        &lt;StackPanel Margin=&quot;-87,120,246,464&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="457:3827" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel Margin=&quot;30,50,30,0&quot;&gt;&#10;            &lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt;&#10;            &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt;&#10;            &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;&#10;        &lt;/StackPanel&gt; &lt;TabControl Grid.Column=&quot;1&quot; Margin=&quot;0,25,231,10&quot;&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;RichTextBox Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;&gt;&#10;                        &lt;FlowDocument&gt;&#10;                            &lt;Paragraph&gt;&#10;                                &lt;Run Text=&quot;RichTextBox&quot;/&gt;&#10;                            &lt;/Paragraph&gt;&#10;                        &lt;/FlowDocument&gt;&#10;                    &lt;/RichTextBox&gt;&#10;                    &lt;Image Name=&quot;singImg&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;209&quot; Margin=&quot;592,39,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;223&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;        &lt;/TabControl&gt; &lt;StackPanel Margin=&quot;-87,120,246,464&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="472:618" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="628:852" ph="&lt;&lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt; &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt; &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="861:3480" ph="&lt;&lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;Info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt; &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;&#10;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="941:1756" ph="&lt;&lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="1027:1699" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt; &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="1077:1260" ph="&lt;&lt;ColumnDefinition Width=&quot;89*&quot;/&gt; &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="1769:3458" ph="&lt;&lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;&#10;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="1824:3435" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt; &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="1874:2057" ph="&lt;&lt;ColumnDefinition Width=&quot;19*&quot;/&gt; &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="2120:3231" ph="&lt;&lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;.../&gt;" />
+                <marker date="1573115496174" expanded="true" signature="3252:3411" ph="&lt;&lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+              <folding>
+                <marker date="1573115427407" expanded="true" signature="6:381" ph="..." />
+                <marker date="1573115427407" expanded="true" signature="404:4353" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="411:489" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1573115427407" expanded="true" signature="525:4351" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="559:614" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="713:2474" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="798:858" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="940:1001" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1082:1143" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1224:1285" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1366:1424" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1505:1565" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1647:1707" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1790:1852" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="1935:2001" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2083:2147" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2228:2291" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2372:2433" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2536:2708" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2637:2698" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2775:2915" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2824:2892" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="2985:3459" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="3489:4345" ph="{...}" />
+                <marker date="1573115427407" expanded="true" signature="3537:4335" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZodiacSigns/Models/Signs.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1573113602361" expanded="true" signature="29:175" ph="{...}" />
+                <marker date="1573113602361" expanded="true" signature="53:173" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01B60F1D-E92C-48E6-8F1A-412F1E1120F2/5d/671da4df/TextBox.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZodiacSigns/Models/Signs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZodiacSigns/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ZodiacSigns/Models/User.cs" />
+        <option value="$PROJECT_DIR$/ZodiacSigns/Models/Signs.cs" />
+        <option value="$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZodiacSigns" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZodiacSigns" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ZodiacSigns" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ZodiacSigns" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ZodiacSigns" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ZodiacSigns/bin/Debug/netcoreapp3.0/ZodiacSigns.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ZodiacSigns" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ZodiacSigns/ZodiacSigns.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50e4d612-5549-490e-b0bc-b188dbf6d045" name="Default Changelist" comment="" />
+      <created>1571676819263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571676819263</updated>
+      <workItem from="1571676820869" duration="1984000" />
+      <workItem from="1571728162198" duration="4274000" />
+      <workItem from="1571843337004" duration="2458000" />
+      <workItem from="1572501378527" duration="1170000" />
+      <workItem from="1573037488793" duration="7753000" />
+      <workItem from="1573101524943" duration="15000" />
+      <workItem from="1573105362839" duration="9235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26889000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17535903" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24094488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" x="319" y="125" width="844" height="575" id="XAML Preview" maximized="true" order="11" type="WINDOWED" weight="0.32913387" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.17007874" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01B60F1D-E92C-48E6-8F1A-412F1E1120F2/5d/671da4df/TextBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="527" column="36" selection-start-line="527" selection-start-column="36" selection-end-line="527" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZodiacSigns/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1571676693296" expanded="true" signature="0:363" ph="&lt;&lt;Application.Resources&gt;&#10;         &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1571676693296" expanded="true" signature="286:348" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZodiacSigns/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#115#0" expanded="true" />
+            <marker date="1571843777177" expanded="true" signature="163:407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZodiacSigns/Models/Signs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1573113602361" expanded="true" signature="29:175" ph="{...}" />
+            <marker date="1573113602361" expanded="true" signature="53:173" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+          <folding>
+            <marker date="1573115427407" expanded="true" signature="6:381" ph="..." />
+            <marker date="1573115427407" expanded="true" signature="404:4353" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="411:489" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1573115427407" expanded="true" signature="525:4351" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="559:614" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="713:2474" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="798:858" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="940:1001" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1082:1143" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1224:1285" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1366:1424" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1505:1565" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1647:1707" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1790:1852" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="1935:2001" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2083:2147" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2228:2291" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2372:2433" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2536:2708" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2637:2698" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2775:2915" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2824:2892" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="2985:3459" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="3489:4345" ph="{...}" />
+            <marker date="1573115427407" expanded="true" signature="3537:4335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZodiacSigns/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <marker date="1573115496174" expanded="true" signature="0:3837" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;        &lt;StackPanel Margin=&quot;30,50,30,0&quot;&gt;&#10;            &lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt;&#10;            &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt;&#10;            &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;&#10;        &lt;/StackPanel&gt;&#10;        &lt;TabControl Grid.Column=&quot;1&quot; Margin=&quot;0,25,231,10&quot;&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;RichTextBox Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;&gt;&#10;                        &lt;FlowDocument&gt;&#10;                            &lt;Paragraph&gt;&#10;                                &lt;Run Text=&quot;RichTextBox&quot;/&gt;&#10;                            &lt;/Paragraph&gt;&#10;                        &lt;/FlowDocument&gt;&#10;                    &lt;/RichTextBox&gt;&#10;                    &lt;Image Name=&quot;singImg&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;209&quot; Margin=&quot;592,39,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;223&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;        &lt;/TabControl&gt;&#10;        &lt;StackPanel Margin=&quot;-87,120,246,464&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="457:3827" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;            &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel Margin=&quot;30,50,30,0&quot;&gt;&#10;            &lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt;&#10;            &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt;&#10;            &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;&#10;        &lt;/StackPanel&gt; &lt;TabControl Grid.Column=&quot;1&quot; Margin=&quot;0,25,231,10&quot;&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;            &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;RichTextBox Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;&gt;&#10;                        &lt;FlowDocument&gt;&#10;                            &lt;Paragraph&gt;&#10;                                &lt;Run Text=&quot;RichTextBox&quot;/&gt;&#10;                            &lt;/Paragraph&gt;&#10;                        &lt;/FlowDocument&gt;&#10;                    &lt;/RichTextBox&gt;&#10;                    &lt;Image Name=&quot;singImg&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;209&quot; Margin=&quot;592,39,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;223&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;&#10;        &lt;/TabControl&gt; &lt;StackPanel Margin=&quot;-87,120,246,464&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="472:618" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;1*&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="628:852" ph="&lt;&lt;TextBlock&gt;Birth Date&lt;/TextBlock&gt; &lt;DatePicker Name=&quot;birthdate&quot; Margin=&quot;0,0,0,20&quot;/&gt; &lt;Button Height=&quot;30&quot; Name=&quot;Submit_btn&quot; Click=&quot;Submit&quot;&gt;Submit&lt;/Button&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="861:3480" ph="&lt;&lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;Info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt; &lt;TabItem Header=&quot;TabItem&quot;&gt;&#10;                &lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;&#10;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/TabItem&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="941:1756" ph="&lt;&lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                    &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="1027:1699" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;89*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;Button Content=&quot;Get Details&quot; Click=&quot;GetDetails&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;152,321,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;44&quot; Width=&quot;132&quot; Grid.Column=&quot;1&quot;/&gt; &lt;Label Name=&quot;info&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;3,37,0,0&quot; VerticalAlignment=&quot;Top&quot; Height=&quot;256&quot; Width=&quot;452&quot; Grid.Column=&quot;1&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="1077:1260" ph="&lt;&lt;ColumnDefinition Width=&quot;89*&quot;/&gt; &lt;ColumnDefinition Width=&quot;733*&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="1769:3458" ph="&lt;&lt;Grid Background=&quot;##FFE5E5E5&quot;&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;&#10;&#10;                    &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="1824:3435" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;19*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt; &lt;StackPanel Margin=&quot;0,27,425,0&quot; Grid.ColumnSpan=&quot;2&quot;&gt;&#10;                        &lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                        &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="1874:2057" ph="&lt;&lt;ColumnDefinition Width=&quot;19*&quot;/&gt; &lt;ColumnDefinition Width=&quot;803*&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="2120:3231" ph="&lt;&lt;Button Content=&quot;Aruarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Pisces&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Aries&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Tourus&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Gemini&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Cancer&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Leo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Virgo&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Libra&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Scorpio&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Sagittarius&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt; &lt;Button Content=&quot;Capricorn&quot; Click=&quot;DisplayDetail&quot; Height=&quot;40&quot;/&gt;.../&gt;" />
+            <marker date="1573115496174" expanded="true" signature="3252:3411" ph="&lt;&lt;Label Name=&quot;Details&quot; Grid.Column=&quot;1&quot; Margin=&quot;162,0,0,0&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

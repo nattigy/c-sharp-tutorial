@@ -1,0 +1,14 @@
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\bin\Debug\UnitChange.exe.config
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\bin\Debug\UnitChange.exe
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\bin\Debug\UnitChange.pdb
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.csprojAssemblyReference.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\MainWindow.g.cs
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\App.g.cs
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange_MarkupCompile.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange_MarkupCompile.lref
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\MainWindow.baml
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.g.resources
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.Properties.Resources.resources
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.csproj.GenerateResource.cache
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.exe
+C:\Users\Nati\Desktop\C# projects\LabAssignment\UnitChange\UnitChange\UnitChange\obj\Debug\UnitChange.pdb
